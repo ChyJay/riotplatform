@@ -1,0 +1,43 @@
+.bot{
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    width: 100%;
+    color: white;
+    position: fixed;
+    margin-top: 40px;
+    transition: all 0.25s ease;
+
+}
+.bot:hover{
+    cursor: pointer;
+    /* background-color: rgb(80, 74, 74); */
+}
+.shift{
+    left: 0;
+    opacity: 0;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+.move{
+    left: 0;
+    opacity: 0;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+.mat{
+    left: 0;
+    opacity: 0;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.mat:hover{
+    visibility: visible;
+    
+} 
